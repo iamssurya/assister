@@ -34,9 +34,11 @@
           </ul>
           
         
-        
+        <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>  
         <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
         <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
+        
+        <script>if (window.module) module = window.module;</script>
         <script>
             $(".button-collapses").sideNav();
         </script>
