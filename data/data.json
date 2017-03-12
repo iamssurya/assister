@@ -1,0 +1,30 @@
+[
+  {
+  "_id": 1,
+  "title":"SCB",
+  "url":"ibank.standardchartered.co.in",
+  "username":"suryakumar",
+  "password":"ABckumAR",
+  "addons":[
+      {
+        "title":"transaction password",
+        "username":"transaurya",
+        "password":"Kumarusrya"
+      }
+    ]
+  },
+  {
+  "_id": 2,
+  "title":"HDFC",
+  "url":"netbanking.hdfc.co.in",
+  "username":"suryakmar",
+  "password":"AckumAR",
+  "addons":[
+      {
+        "title":"transaction password",
+        "username":"ransaurya",
+        "password":"umarusrya"
+      }
+    ]
+  }
+]
