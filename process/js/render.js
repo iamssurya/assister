@@ -13,17 +13,14 @@ let MainInterface = React.createClass({
     }
   },
   render(){
-
     let myData = this.state.myData;
-
-    myData = myData.map(function(item,index){
+    myData = myData.map((item,index)=>{
       return(
         <VaultList key={index}
         singleItem={item}
         />
       );
-
-    }.bind());
+    });
     return(
       <div className="collection">{myData}</div>
     );
